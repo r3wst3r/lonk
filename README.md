@@ -9,14 +9,7 @@
   lonk is a fork of link, a command and control framework written in rust. Currently in <strong>beta</strong>.
 </p>
 
-<p align="center">
-  <a href="https://www.youtube.com/watch/dQw4w9WgXcQ">
-    <img alt="Download on the App Store" title="App Store" src="http://i.imgur.com/0n2zqHD.png" width="140">
-  </a>
 
-  <a href="https://www.youtube.com/watch/dQw4w9WgXcQ">
-    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
-  </a>
 </p>
 
 ## Table of Contents
