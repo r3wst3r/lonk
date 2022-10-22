@@ -31,7 +31,7 @@ Lonk provides MacOS, Linux and Windows implants which may lack the necessary eva
 
 A fork of postrequest's link, Lonk is r3wst3r's first pass at developing an adversarial C2 framework in the Rust programming language. A project goal is to be able to deploy from a kubernetes mesh using kris-nova's Aurae, currently in development, for no reason other than because it's neat.
 
-The Link link (link^2?): https://github.com/postrequest/link
+The Link link (link^2?): https://github.com/postrequest/link<br>
 Aurae: https://github.com/aurae-runtime/community
 
 
