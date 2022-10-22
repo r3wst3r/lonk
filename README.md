@@ -56,7 +56,7 @@ Issue filing in lonk is locked (lonked?) until I introduce some novel features t
 
 - Clone or download the repo
 - `cargo run` if you are eager to run it **right now**
-- `cargo build --release` to build the link server executable
+- `cargo build --release` to build the lonk server executable
 
 For more information check out [Installation and Usage](https://github.com/postrequest/link/wiki/Installation-and-Usage).
 
