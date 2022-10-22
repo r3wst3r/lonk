@@ -53,6 +53,8 @@ fn main_help() {
     println!("  generate            generate link");
     println!("  generate-linux      generate link targeting linux");
     println!("  generate-osx        generate link targeting osx");
+    //  TODO
+    //println!("  generate-ms         generate link targeting windows (in development)");
     println!("  links               links menu");
     println!("  kill                stop the web server");
     println!("  sharp               generate link");
@@ -103,6 +105,8 @@ pub async fn main_loop() {
                     "generate" => util::generate::generate(args),
                     "generate-linux" => util::generate::generate_linux(args),
                     "generate-osx" => util::generate::generate_osx(args),
+                    //  TODO
+                    //"generate-ms" => util::generate::generate_ms(args),
                     "links" => links_loop(links.clone(), args),
                     "kill" => srv.stop(true).await,
                     "sharp" => util::sharp::sharpcollection_manage(args),
@@ -130,17 +134,17 @@ pub async fn main_loop() {
     }
 }
 
-// links cli
+// lonks cli
 fn links_help() {
-    println!("links [switch] <argument>");
+    println!("lonks [switch] <argument>");
     println!("  -h    help");
-    println!("  -a    show all links");
-    println!("  -i    interact with link (eg: link -i 1)");
-    println!("  -k    kill link");
+    println!("  -a    show all lonks");
+    println!("  -i    interact with lonk (eg: link -i 1)");
+    println!("  -k    kill lonk");
 }
 
 fn links_menu_help() {
-    println!("Link commands:");
+    println!("Lonk commands:");
     println!("  mimikatz            perform MiniDump on lsass and parse locally with pypykatz");
     println!("  procdump            MiniDump a process in memory");
     println!("  execute-assembly    execute .NET assembly in memory");
@@ -170,14 +174,14 @@ fn links_menu_help() {
 }
 
 fn links_menu_help_nix() {
-    println!("Link commands:");
+    println!("Lonk commands:");
     println!("  persist             persistence modules");
     println!("  cd                  change directory");
     println!("  pwd                 print working directory");
     println!("  ls                  list directory");
     println!("  pid                 print PID");
     println!("  whoami              whoami");
-    println!("  kill                exit link");
+    println!("  kill                exit lonk");
     println!("  help                show help");
     println!("  ?                   show help");
     println!("  info                show info");
@@ -224,7 +228,7 @@ fn links_loop(links: web::Data<Links>, args: Vec<String>) {
         links_help();
         return;
     }
-    // check if link exists
+    // check if lonk exists
     let mut link_exists = false;
     let mut link_index: usize = 0;
     let link_count = *links.count.lock().unwrap() as usize;
