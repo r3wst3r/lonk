@@ -27,7 +27,13 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/postrequest/link)](https://rust-reportcard.xuri.me/report/github.com/postrequest/link)
 
-link provides MacOS, Linux and Windows implants which may lack the necessary evasive tradecraft provided by other more mature command and control frameworks.
+Lonk provides MacOS, Linux and Windows implants which may lack the necessary evasive tradecraft provided by other more mature command and control frameworks.
+
+A fork of postrequest's link, Lonk is r3wst3r's first pass at developing an adversarial C2 framework in the Rust programming language. A project goal is to be able to deploy from a kubernetes mesh using kris-nova's Aurae, currently in development, for no reason other than because it's neat.
+
+The Link link (link^2?): https://github.com/postrequest/link
+Aurae: https://github.com/aurae-runtime/community
+
 
 ## Features
 
@@ -63,4 +69,3 @@ A non-exhaustive list of those who have in some way inspired this project by mea
 [@Flangvik](https://github.com/Flangvik)  
 [@monoxgas](https://github.com/monoxgas)  
 [@b4rtik](https://github.com/b4rtik)  
-
