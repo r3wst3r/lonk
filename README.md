@@ -1,8 +1,13 @@
 <h1 align="center"> lonk </h1> <br>
 <p align="center">
-  <a href="https://github.com/postrequest/link">
+  <a href="https://github.com/r3wst3r/lonk">
     <img alt="🔗" title="link" src="https://i.giphy.com/6d2rN7dGii0eiKB2HO.gif" width="450">
   </a>
+_|          _|_|    _|      _|  _|    _|  
+_|        _|    _|  _|_|    _|  _|  _|    
+_|        _|    _|  _|  _|  _|  _|_|      
+_|        _|    _|  _|    _|_|  _|  _|    
+_|_|_|_|    _|_|    _|      _|  _|    _| 
 </p>
 
 <p align="center">
