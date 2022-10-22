@@ -1,4 +1,4 @@
-<h1 align="center"> link </h1> <br>
+<h1 align="center"> lonk </h1> <br>
 <p align="center">
   <a href="https://github.com/postrequest/link">
     <img alt="🔗" title="link" src="https://i.giphy.com/6d2rN7dGii0eiKB2HO.gif" width="450">
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  link is a command and control framework written in rust. Currently in <strong>beta</strong>.
+  lonk is a fork of link, a command and control framework written in rust. Currently in <strong>beta</strong>.
 </p>
 
 <p align="center">
