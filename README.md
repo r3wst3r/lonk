@@ -48,7 +48,7 @@ Hopefully this list expands for humans to actually want to use this:
 
 ## Feedback
 
-Feel free to [file an issue](https://github.com/postrequest/link/issues/new).
+Feel free to [file an issue](https://github.com/r3wst3r/lonk/issues/new).
 
 ## Build Process
 
